@@ -7,7 +7,7 @@ function buttonClick(){
 	if (one.value == "if((mouseX>x)&&(mouseX<x+w)&&(mouseY>y)&&(mouseY<y+h))"){
 		text1.innerHTML = "正解";
 	}else{
-		text1.innerHTML = "不正解　解答：)if((mouseX＞x)&&(mouseX＜x+w)&&(mouseY＞y)&&(mouseY＜y+h))";
+		text1.innerHTML = "不正解　解答：if((mouseX>x)&&(mouseX<x+w)&&(mouseY>y)&&(mouseY<y+h))";
 	}
 
 	if (two.value == "else"){
